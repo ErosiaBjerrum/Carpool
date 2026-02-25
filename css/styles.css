@@ -1,0 +1,44 @@
+
+body{
+    align-content: center;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+
+header{
+    background-color: grey;
+    align-content: center;
+    text-align: center;
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formgroup{
+
+    padding: 20px;
+}
+
+.formgroup div{
+
+    width: 100%;
+}
+
+#input{
+
+    width: 100%;
+}
+
+#choices{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}

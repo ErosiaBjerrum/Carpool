@@ -1,0 +1,92 @@
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+<header>
+
+<img src="assets/topbanner.jpg">
+
+    <div>
+        <h1>Velkommen til Carpool</h1>
+        <h3>Find nogen at køre med</h3>
+
+    </div>
+
+</header>
+
+<div class="container">
+        <form>
+
+            <div class="formgroup">
+            <label>Vælg dato:</label>
+            <input type="date">
+            </div>
+
+            <div class="formgroup" id="choices">
+
+                <div>
+            <input type="radio" name="role" value="driver">
+            <label>Chauffør</label>
+                </div>
+                <div>
+            <input type="radio" name="role" value="passenger">
+            <label>Passager</label>
+                </div>
+
+                <div>
+                    <div>
+            <input type="checkbox" id="smoker" value="smoker">
+            <label for="smoker">Rygning ok?</label>
+                    </div>
+                    <div>
+            <input type="checkbox" id="return" value="return">
+            <label for="smoker">Samme bil hjem?</label>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div>
+            <label for="from">Afgang fra:</label>
+            <select id="from">
+                <option value="ronne">Rønne</option>
+                <option value="nexo">Nexø</option>
+                <option value="svaneke">Svaneke</option>
+                <option value="gudhjem">Gudhjem</option>
+                <option value="aakirkeby">Åkirkeby</option>
+            </select>
+            </div>
+
+            <div>
+            <label for="to">Destination:</label>
+            <select id="to">
+                <option value="ronne">Rønne</option>
+                <option value="nexo">Nexø</option>
+                <option value="svaneke">Svaneke</option>
+                <option value="gudhjem">Gudhjem</option>
+                <option value="aakirkeby">Åkirkeby</option>
+            </select>
+            </div>
+
+
+        </form>
+
+
+
+
+
+
+</div>
+
+</body>
+
+
+</html>
