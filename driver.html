@@ -11,13 +11,11 @@
 <body>
 
 <h1 class="site-title">Carpool Bornholm</h1>
-
-
 <img src="assets/hero.png" class="hero" alt="Carpool samkørsel på Bornholm">
 
 <header>
 
-    <div class="progress step-1">
+    <div class="progress step-4">
         <div class="step">Rolle</div>
         <div class="step">Dato</div>
         <div class="step">Rute</div>
@@ -26,29 +24,22 @@
     </div>
 
     <div>
-        <h1>Vælg rolle</h1>
+        <h1>Vælg kapacitet</h1>
     </div>
 
-    <div class="role-box">
-        <div class="role-select">
-
-            <input type="radio" id="driver" name="role" value="chauffør">
-            <label for="driver" class="role-card">
-                <span class="role-icon">🚗</span>
-                <span class="role-title">Chauffør</span>
-            </label>
-
-            <input type="radio" id="passenger" name="role" value="passager">
-            <label for="passenger" class="role-card">
-                <span class="role-icon">👤</span>
-                <span class="role-title">Passager</span>
-            </label>
-
-        </div>
-    </div>
+    <label for="seats"></label><select id="seats">
+        <option value="" selected disabled hidden>Vælg antal...</option>
+        <option value="1">1 passager</option>
+        <option value="2">2 passagerer</option>
+        <option value="3">3 passagerer</option>
+        <option value="4">4 passagerer</option>
+        <option value="5">5 passagerer</option>
+        <option value="6">6 passagerer</option>
+    </select>
 
     <div class="buttons">
-        <a href="date.html" class="next-button" id="next">Næste →</a>
+        <a href="route.html" class="back-button">← Tilbage</a>
+        <a href="summary.html" class="next-button" id="next">OPRET</a>
     </div>
 
 </header>

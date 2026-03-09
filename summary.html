@@ -11,13 +11,11 @@
 <body>
 
 <h1 class="site-title">Carpool Bornholm</h1>
-
-
 <img src="assets/hero.png" class="hero" alt="Carpool samkørsel på Bornholm">
 
 <header>
 
-    <div class="progress step-1">
+    <div class="progress step-5">
         <div class="step">Rolle</div>
         <div class="step">Dato</div>
         <div class="step">Rute</div>
@@ -26,29 +24,19 @@
     </div>
 
     <div>
-        <h1>Vælg rolle</h1>
+        <h1>✅ Din tur er oprettet</h1>
     </div>
 
-    <div class="role-box">
-        <div class="role-select">
+    <div class="summary-layout">
 
-            <input type="radio" id="driver" name="role" value="chauffør">
-            <label for="driver" class="role-card">
-                <span class="role-icon">🚗</span>
-                <span class="role-title">Chauffør</span>
-            </label>
+        <div id="summary"></div>
 
-            <input type="radio" id="passenger" name="role" value="passager">
-            <label for="passenger" class="role-card">
-                <span class="role-icon">👤</span>
-                <span class="role-title">Passager</span>
-            </label>
+            <!--<img src="assets/thumbsup.png" class="thumbs" alt="Tommel op">-->
 
-        </div>
     </div>
 
     <div class="buttons">
-        <a href="date.html" class="next-button" id="next">Næste →</a>
+        <a href="javascript:history.back()" class="back-button">← Rediger</a>
     </div>
 
 </header>

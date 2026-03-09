@@ -7,17 +7,14 @@
     <script src="js/script.js" defer></script>
     <title>Carpool</title>
 </head>
-
 <body>
 
 <h1 class="site-title">Carpool Bornholm</h1>
-
-
 <img src="assets/hero.png" class="hero" alt="Carpool samkørsel på Bornholm">
 
 <header>
 
-    <div class="progress step-1">
+    <div class="progress step-4">
         <div class="step">Rolle</div>
         <div class="step">Dato</div>
         <div class="step">Rute</div>
@@ -25,32 +22,18 @@
         <div class="step">Slut</div>
     </div>
 
-    <div>
-        <h1>Vælg rolle</h1>
+    <div class="contribution-text">
+        <h1>Vælg modydelse</h1>
+        <h4>(valgfrit)</h4>
     </div>
 
-    <div class="role-box">
-        <div class="role-select">
-
-            <input type="radio" id="driver" name="role" value="chauffør">
-            <label for="driver" class="role-card">
-                <span class="role-icon">🚗</span>
-                <span class="role-title">Chauffør</span>
-            </label>
-
-            <input type="radio" id="passenger" name="role" value="passager">
-            <label for="passenger" class="role-card">
-                <span class="role-icon">👤</span>
-                <span class="role-title">Passager</span>
-            </label>
-
-        </div>
-    </div>
+    <label for="contribution"></label>
+    <input type="text" id="contribution" placeholder="Fx benzinpenge">
 
     <div class="buttons">
-        <a href="date.html" class="next-button" id="next">Næste →</a>
+        <a href="route.html" class="back-button">← Tilbage</a>
+        <a href="summary.html" class="next-button" id="next">OPRET</a>
     </div>
-
 </header>
 
 </body>

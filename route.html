@@ -1,0 +1,70 @@
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Carpool</title>
+</head>
+
+<body>
+
+<h1 class="site-title">Carpool Bornholm</h1>
+<img src="assets/hero.png" class="hero" alt="Carpool samkørsel på Bornholm">
+
+<header>
+
+    <div class="progress step-3">
+        <div class="step">Rolle</div>
+        <div class="step">Dato</div>
+        <div class="step">Rute</div>
+        <div class="step">Tilvalg</div>
+        <div class="step">Slut</div>
+    </div>
+
+    <div>
+        <h1>Hvorfra og hvortil?</h1>
+    </div>
+
+    <div class="route-select">
+
+        <div class="route-input">
+            <label class="route-label" for="from">Fra</label>
+            <select id="from">
+                <option value="" disabled selected hidden>Vælg by</option>
+                <option value="campus">Campus</option>
+                <option value="ronne">Rønne</option>
+                <option value="nexo">Nexø</option>
+                <option value="svaneke">Svaneke</option>
+                <option value="gudhjem">Gudhjem</option>
+                <option value="aakirkeby">Åkirkeby</option>
+            </select>
+        </div>
+
+        <button class="swap" id="swap" type="button">⇄</button>
+
+        <div class="route-input">
+            <label class="route-label" for="to">Til</label>
+            <select id="to">
+                <option value="" disabled selected hidden>Vælg by</option>
+                <option value="campus">Campus</option>
+                <option value="ronne">Rønne</option>
+                <option value="nexo">Nexø</option>
+                <option value="svaneke">Svaneke</option>
+                <option value="gudhjem">Gudhjem</option>
+                <option value="aakirkeby">Åkirkeby</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <a href="date.html" class="back-button">← Tilbage</a>
+        <a href="driver.html" class="next-button" id="next">Næste →</a>
+    </div>
+
+</header>
+
+</body>
+</html>
